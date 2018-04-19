@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="http://cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/a549aa8780dbda16f6cff545aeabc3d71073911e/src/js/bootstrap-datetimepicker.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="http://cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/a549aa8780dbda16f6cff545aeabc3d71073911e/build/css/bootstrap-datetimepicker.css" rel="stylesheet"/>
+
+
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <!-- Optional theme -->
+
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand" href="index.html" >
+        <strong>GDJ</strong> Entertainment
+      </a>
+
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Links -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <!-- Left -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html" >Contact</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="performances.html" >Performances</a>
+        </li>
+      </ul>
+
+      <!-- Right -->
+      <ul class="navbar-nav nav-flex-icons">
+        <li class="nav-item">
+          <a href="https://www.facebook.com/gdjentertainment/" class="nav-link">
+            <i class="fa fa-facebook"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.youtube.com/channel/UCBjQbGPk40GFLujeXPAMWVw" class="nav-link">
+            <i class="fa fa-youtube"></i>
+          </a>
+        </li>
+        <li class="nav-item active">
+          <a href="book.html" class="nav-link border border-light rounded">
+            <i class="fa fa-bookmark mr-2"></i>Book Now
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+
+  </div>
+</nav>
+<!-- Navbar -->
+<!-- Default form contact -->
+<div class="container">
+  <form action="https://formspree.io/gdjentertainment@mycci.net" method="POST">
+    <p class="h4 text-center mb-4">Book Now</p>
+
+    <!-- Default input name -->
+    <label for="defaultFormContactNameEx" class="grey-text">Your name</label>
+    <input name="Name" type="text" id="defaultFormContactNameEx" class="form-control">
+
+    <br>
+
+    <!-- Default input email -->
+    <label for="defaultFormContactEmailEx" class="grey-text">Your email</label>
+    <input name="Email" type="email" id="defaultFormContactEmailEx" class="form-control">
+
+    <br>
+
+    <!-- Default input subject -->
+    <label for="defaultFormContactSubjectEx" class="grey-text">Phone</label>
+    <input name="Phone" type="number" id="defaultFormContactSubjectEx" class="form-control">
+    <label for="defaultFormContactCity" class="grey-text">City</label>
+    <input name="City" type="text" id="defaultFormContactCity" class="form-control">
+
+    <br>
+    <label for="defaultFormContactSubjectEx" class="grey-text">Date & Time</label>
+    <div class="row">
+      <div class='col-sm-6'>
+        <div class="form-group">
+          <div class='input-group date' id='datetimepicker1'>
+            <input name="Date Time"id="defaultFormContactDate" type='text' class="form-control" />
+            <span class="input-group-addon">
+              <span class="glyphicon glyphicon-calendar"></span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <script type="text/javascript">
+      $(function () {
+        $('#datetimepicker1').datetimepicker();
+      });
+      </script>
+    </div>
+    <!-- Default textarea message -->
+    <label for="defaultFormContactMessageEx" class="grey-text">Your message</label>
+    <textarea name="Message" type="text" id="defaultFormContactMessageEx" class="form-control" rows="3"></textarea>
+
+    <div class="text-center mt-4">
+      <button class="btn btn-outline-warning" type="submit">Send<i class="fa fa-paper-plane-o ml-2"></i></button>
+    </div>
+    <input type="hidden" name="_next" value="thanks.html" />
+    
+  </form>
+</div>
+
+
+<!-- SCRIPTS -->
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<!-- Initializations -->
+<script type="text/javascript">
+// Animations initialization
+new WOW().init();
+</script>
+</body>
+
+</html>

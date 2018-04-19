@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand" href="index.html" >
+        <strong>GDJ</strong> Entertainment
+      </a>
+
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Links -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <!-- Left -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+          <span class="sr-only">(current)</span>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#" >Contact</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="performances.html" >Performances</a>
+        </li>
+      </ul>
+
+      <!-- Right -->
+      <ul class="navbar-nav nav-flex-icons">
+        <li class="nav-item">
+          <a href="https://www.facebook.com/gdjentertainment/" class="nav-link">
+            <i class="fa fa-facebook"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.youtube.com/channel/UCBjQbGPk40GFLujeXPAMWVw" class="nav-link">
+            <i class="fa fa-youtube"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="book.html" class="nav-link border border-light rounded">
+          <i class="fa fa-bookmark mr-2"></i>Book Now
+        </a>
+      </li>
+    </ul>
+
+  </div>
+
+</div>
+</nav>
+<!-- Navbar -->
+<main>
+<section class="py-5 mt-5">
+
+    <!--Grid row-->
+    <div class="container">
+    <div class="row">
+
+      <div class="col-lg-12">
+        <img src="img/gdj.png" class="img-fluid z-depth-1-half" alt="">
+      </div>
+        <!--Grid column-->
+        <div class="col-md-12">
+
+            <!--Form with header-->
+            <div class="card">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="card-body form">
+                            <!--Header-->
+                            <div class="formHeader mb-1 pt-3">
+                                <h3>
+                                    <i class="fa fa-envelope"></i> Write to us:</h3>
+                            </div>
+
+                            <br>
+
+                            <form action="https://formspree.io/gdjentertainment@mycci.net" method="POST">
+                              <!--Grid row-->
+                              <div class="row">
+
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                  <div class="md-form">
+                                    <input name="Name" type="text" id="form-contact-name" class="form-control">
+                                    <label for="form-contact-name" class="">Your name</label>
+                                  </div>
+                                </div>
+                                <!--Grid column-->
+
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                  <div class="md-form">
+                                    <input name="Email" type="text" id="form-contact-email" class="form-control">
+                                    <label for="form-contact-email" class="">Your email</label>
+                                  </div>
+                                </div>
+                                <!--Grid column-->
+
+                              </div>
+                              <!--Grid row-->
+
+                              <!--Grid row-->
+                              <div class="row">
+
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                  <div class="md-form">
+                                    <input name="Phone" type="text" id="form-contact-phone" class="form-control">
+                                    <label for="form-contact-phone" class="">Your phone</label>
+                                  </div>
+                                </div>
+                                <!--Grid column-->
+
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                  <div class="md-form">
+                                    <input name="City" type="text" id="form-contact-email" class="form-control">
+                                    <label for="form-contact-email" class="">City</label>
+                                  </div>
+                                </div>
+                                <!--Grid column-->
+
+                              </div>
+                              <!--Grid row-->
+
+                              <!--Grid row-->
+                              <div class="row">
+
+                                <!--Grid column-->
+                                <div class="col-md-12">
+
+                                  <div class="md-form">
+                                    <textarea name="Message" type="text" id="form-contact-message" class="form-control md-textarea" rows="3"></textarea>
+                                    <label for="form-contact-message">Your message</label>
+                                    <a class="btn-floating btn-lg blue">
+                                      <input type="submit" class="blue" style="cursor: pointer;color:white;border:none;">
+                                      <i class="fa fa-send-o"></i>
+                                    </a>
+                                  </div>
+
+                                </div>
+                                <!--Grid column-->
+
+                              </div>
+                              <!--Grid row-->
+                              <input type="hidden" name="_next" value="thanks.html" />
+                            </form>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card-body contact text-center" >
+                                <div class="mb-5">
+                                    <h3>Contact information</h3>
+                                </div>
+
+                                <ul class="contact-icons list-unstyled ml-4">
+                                    <li>
+                                        <i class="fa fa-user"></i>
+                                        <p>Gerry De Jesus</p>
+                                    </li>
+
+                                    <li>
+                                        <i class="fa fa-phone"></i>
+                                        <p>+ 916 468 2552</p>
+                                    </li>
+
+                                    <li>
+                                        <i class="fa fa-envelope"></i>
+                                        <p>gdjentertainment@mycci.net</p>
+                                    </li>
+                                </ul>
+
+                                <hr class="hr-light mb-4 mt-4">
+
+                                <ul class="list-inline text-center list-unstyled">
+                                  <li class="list-inline-item">
+                                      <a style="color:white;" href="https://www.facebook.com/gdjentertainment/" class="icons-sm tw-ic">
+                                          <i class="fa fa-facebook"></i>
+                                      </a>
+                                  </li>
+                                  <li class="list-inline-item">
+                                      <a style="color:white;" href="https://www.youtube.com/channel/UCBjQbGPk40GFLujeXPAMWVw" class="icons-sm li-ic">
+                                          <i class="fa fa-youtube"> </i>
+                                      </a>
+                                  </li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/Form with header-->
+
+        </div>
+        <!--Grid column-->
+
+      </div>
+    </div>
+    <!--Grid row-->
+
+</section>
+
+</main>
+<!--Footer-->
+<footer class="page-footer text-center font-small mt-4 wow fadeIn pt-1">
+
+  <!--Call to action-->
+
+  <!--/.Call to action-->
+
+  <hr class="my-4">
+
+
+  <!--Copyright-->
+  <div class="footer-copyright py-3">
+    © 2018 Copyright:
+    <a href="https://mobgaaps.com" > Mobgaaps </a>
+  </div>
+  <!--/.Copyright-->
+
+</footer>
+<!--/.Footer-->
+
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<!-- Initializations -->
+<script type="text/javascript">
+// Animations initialization
+new WOW().init();
+</script>
+</body>
+
+</html>

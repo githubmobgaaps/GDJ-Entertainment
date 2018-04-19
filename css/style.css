@@ -1,0 +1,92 @@
+/* Required height of parents of the Full Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%;
+  background-color: black;
+  color: white;
+}
+section .contact{
+  background-color: #103f6d;
+  height: 100%;
+}
+.bootstrap-datetimepicker-widget{
+
+}
+.card .card-body h4.card-title {
+  font-weight: 900;
+}
+.about hr,hr.thank-you{
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+}
+.view h1 {
+  font-size: 5em;
+}
+.view p.typewrite{
+  font-size: 3em;
+  font-weight: 900;
+  color: #007bff;
+}
+.rgba-black-light{
+  rgba(0,0,0,0.5);
+}
+.view h1 span{
+  font-size: 3em;
+  font-weight: 900;
+}
+.view h1 span .text.hidden{
+  opacity: 0;
+  /* animation: appear 4s infinite; */
+}
+.bootstrap-datetimepicker-widget table td span {
+    color:black;
+  }
+  [type=reset], [type=submit], button, html [type=button]{
+    -webkit-appearance:none;
+    appearance:none;
+  }
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes appear {
+
+  0%   {color: red;}
+  16%   {color: orange;}
+  32%  {color: yellow;}
+  48% {color: green;}
+  60%  {color: blue;}
+  76%  {color: indigo;}
+  90%  {color: violet;}
+}
+
+/* Standard syntax */
+@keyframes appear {
+  0%  {opacity: 0;display: inherit;
+  }
+  10%  {opacity: 1;display: inherit;
+  }
+  100%  {opacity: 1;display: inherit;
+  }
+  /* Full Page Carousel itself*/
+  .carousel {
+    height: 100%; }
+    .carousel .carousel-inner {
+      height: 100%; }
+      .carousel .carousel-inner .carousel-item,
+      .carousel .carousel-inner .active {
+        height: 100%; }
+
+        /* Navbar animation */
+        .navbar {
+          background-color: rgba(0, 0, 0, 0.2); }
+
+          .top-nav-collapse {
+            background-color: #1C2331; }
+
+            /* Adding color to the Navbar on mobile */
+            @media only screen and (max-width: 768px) {
+              .navbar {
+                background-color: #1C2331;
+              }
+            }
+            /* Footer color for sake of consistency with Navbar */
+            .page-footer {
+              background-color: #1C2331; }
