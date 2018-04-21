@@ -10,14 +10,14 @@ section .contact{
   background-color: #103f6d;
   height: 100%;
 }
-.bootstrap-datetimepicker-widget{
-
-}
 .card .card-body h4.card-title {
   font-weight: 900;
 }
 .about hr,hr.thank-you{
   border-top: 1px solid rgba(255, 255, 255, 0.14);
+}
+.formHeader{
+  color: black;
 }
 .view h1 {
   font-size: 5em;
@@ -25,7 +25,7 @@ section .contact{
 .view p.typewrite{
   font-size: 3em;
   font-weight: 900;
-  color: #007bff;
+  color: #0172f0;
 }
 .rgba-black-light{
   rgba(0,0,0,0.5);
@@ -71,6 +71,9 @@ section .contact{
     background-color: #1C2331;
   }
 
+  .view p.typewrite{
+    font-size: 2em;
+  }
   .view h1{
     font-size: 3em;
   }
